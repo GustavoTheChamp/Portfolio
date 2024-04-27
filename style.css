@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.menu a{
+    text-decoration: none;
+}
+a.prthome{
+    font-family: "Pacifico";
+    margin-left: 100px;
+    margin-right: 625px;
+    font-size: 30px;;
+    color: white;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+.logored{
+    color: red;
+}
+a.homeright{
+    padding-right: 10px;
+    color: white;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+a:hover{
+    color: crimson;
+}
+
+#background-video {
+    height: 100vh;
+    min-height:500px;
+    background:url(images/BWmounain.mp4) no-repeat ;
+
+}
+
+header{
+    background-image: url(/images/mountain.jpg);
+    height: 100vh;
+    min-height:500px;
+}
+section{
+    margin-left: 25px;
+    padding-left:100px;
+    margin-top: 165px;
+}
+.home-content{
+    color: white;
+}
+button, .web{
+    color: white;
+    background-color: red;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 6%;
+    margin: 10px;
+}
+.hello{
+    font-size: 30px;
+    font-family: "Ubuntu", sans-serif;
+}
+.name{
+    font-size: 50px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: bold;
+}
+.about{
+    margin-left:500px;
+}
+.picture{
+    float: left;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-basis: 30%;
+      /* position:fixed; */
+}
+.text1{
+    flex-basis: 60%;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+  }
+
+background-color: lightblue;
+
+
+/* 
+.About{
+    background: lightblue;
+    margin: 0;
+  } 
+.Skills{
+    background: lightblue;
+    margin: 0; 
+}
+
+.Projects{
+    background: lightblue;
+    margin: 0; 
+}
+.Contact{
+    background: lightblue;
+    margin: 0; 
+}
+
+
+ #myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+  } 
+   .menu {
+    position: fixed;
+    top: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  } 
+ 
+.content {
+z-index: 100;
+}
+*/
